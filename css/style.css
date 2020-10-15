@@ -396,9 +396,11 @@ body {
 .main-feedback-review_block-item {
     width: 30%;
     padding: 3%;
+    margin: 0 3%;
     display: inherit;
     border-radius: 2vh;
     flex-direction: column;
+    justify-content: space-between;
     box-shadow: 15px 0 30px 0 rgba(58, 74, 88, 0.1);
 }
 
@@ -436,7 +438,7 @@ body {
 }
 
 .main-feedback-review_block-item-user_block-info-name {
-    margin-top: 0;
+    margin: 0;
     color: #343e51;
     font-size: 1.2vw;
     font-weight: 500;
@@ -450,4 +452,62 @@ body {
 
 .main-feedback-review_block-item-user_block-rating {
     width: 25%;
+}
+
+.main-footer {
+    width: 60%;
+    padding: 0 20%;
+    display: inherit;
+    background: #232323;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-footer-copyright {
+    color: white;
+    font-size: 1vw;
+}
+
+.main-footer-navbar {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inherit;
+}
+
+.main-footer-navbar-item {
+    color: white;
+    margin: 0 1vh;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.main-footer-navbar-item:hover {
+    color: #2184e0;
+}
+
+.main-payments {
+    width: 50%;
+    display: flex;
+    padding: 2% 25%;
+    background: #232323;
+    align-self: flex-end;
+    justify-content: center;
+}
+
+.main-payments-method {
+    width: 5%;
+    margin-right: 5%;
+}
+
+.main-payments-method:nth-child(3) {
+    margin-right: 25%;
+}
+
+.main-payments-dmca {
+    width: 40%;
+}
+
+.main-payments-dmca img {
+    width: inherit;
 }
