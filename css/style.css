@@ -201,6 +201,7 @@ body {
 .main-left_circle {
     left: 0;
     top: 115%;
+    width: 10%;
     position: absolute;
 }
 
@@ -249,6 +250,7 @@ body {
 .main-right_circle {
     right: 0;
     top: 180%;
+    width: 10%;
     position: absolute;
 }
 
