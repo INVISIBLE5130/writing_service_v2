@@ -511,3 +511,227 @@ body {
 .main-payments-dmca img {
     width: inherit;
 }
+
+@media screen and (min-width: 1301px) and (max-width: 1536px) {
+    .main-header-main_block-text {
+        width: 45%;
+    }
+
+    .main-header-main_block-calculator {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+    .main-header-main_block {
+        padding-top: 3%;
+    }
+
+    .main-header-main_block-text {
+        width: 45%;
+    }
+
+    .main-header-main_block-text-title,
+    .main-header-main_block-text-anonymous-text,
+    .main-header-main_block-text-anonymous-warranty {
+        font-size: 2.5vw;
+    }
+
+    .main-header-main_block-text-anonymous-warranty {
+        padding: 5vh 2vh;
+    }
+
+    .main-header-main_block-text-description_title {
+        font-size: 1.2vw;
+    }
+
+    .main-header-main_block-text-description {
+        font-size: 1vw;
+    }
+
+    .main-header-main_block-calculator {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .main-header {
+        width: 80%;
+        height: auto;
+        padding: 0 10%;
+    }
+
+    .main-header-header_block-logo {
+        width: 20%;
+    }
+
+    .main-header-header_block-button,
+    .main-order_form-button {
+        font-size: 3vw;
+    }
+
+    .main-header-main_block {
+        flex-direction: column;
+    }
+
+    .main-header-main_block-text,
+    .main-header-main_block-calculator {
+        width: 100%;
+    }
+
+    .main-header-main_block-text-title,
+    .main-header-main_block-text-anonymous-text {
+        font-size: 9vw;
+    }
+
+    .main-header-main_block-text-anonymous-warranty {
+        font-size: 5vw;
+        padding: 4vh 2vh;
+    }
+
+    .main-header-main_block-text-description_title {
+        font-size: 5vw;
+    }
+
+    .main-header-main_block-text-description {
+        font-size: 4vw;
+    }
+
+    #orderformph-new-2-iframe {
+        height: 620px !important;
+    }
+
+    .main-rating {
+        width: 80%;
+        height: auto;
+        padding: 5% 10% 3%;
+    }
+
+    .main-rating-rate {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .main-rating-rate-row {
+        width: 100%;
+        margin: 1vh 0;
+    }
+
+    .main-rating-rate-block-logo {
+        margin-left: 5%;
+    }
+
+    .main-rating-rate-block-rating {
+        margin-left: 20%;
+    }
+
+    .main-rating-rate-block-rating-title {
+        font-size: 3vw;
+    }
+
+    .main-rating-rate-block-rating-rate {
+        width: 14vw;
+    }
+
+    .main-rating-rate-block-rate_number,
+    .main-rating-comment-text {
+        font-size: 4vw;
+    }
+
+    .main-left_circle, .main-right_circle {
+        display: none;
+    }
+
+    .main-why_us-title,
+    .main-order_form-title {
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .main-why_us-underline {
+        width: 5vh;
+        border: 1px solid #0064aa;
+    }
+
+    .main-why_us-list-item {
+        font-size: 3vw;
+    }
+
+    .main-why_us-list-item-icon {
+        width: 10%;
+    }
+
+    .main-order_form-title {
+        width: 64%;
+    }
+
+    .main-order_form-href {
+        margin: 10% 0;
+    }
+
+    .main-work-steps {
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .main-work-steps-step {
+        width: auto;
+        margin-top: 20%;
+    }
+
+    .main-work-steps-step:nth-child(1) .main-work-steps-step-number_block,
+    .main-work-steps-step:nth-child(2) .main-work-steps-step-number_block {
+        top: -60%;
+    }
+
+    .main-work-steps-step-number_block {
+        padding: 1vh 2vh 0;
+    }
+
+    .main-work-steps-step-number_block-text {
+        font-size: 2vw;
+        margin-bottom: 1vh;
+    }
+
+    .main-feedback-review_block {
+        flex-direction: column;
+    }
+
+    .main-feedback-review_block-item {
+        width: auto;
+        margin: 1vh 3%;
+    }
+
+    .main-feedback-review_block-item-comment,
+    .main-feedback-review_block-item-user_block-info-name,
+    .main-work-steps-step-description,
+    .main-footer-copyright,
+    .main-footer-navbar-item {
+        font-size: 3vw;
+    }
+
+    .main-footer {
+        flex-direction: column;
+    }
+
+    .main-footer-navbar {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .main-footer-navbar-item {
+        margin: 1vh 0;
+    }
+
+    .main-payments {
+        align-items: center;
+    }
+
+    .main-payments-method {
+        width: 10%;
+    }
+
+    .main-payments-dmca {
+        width: 80%;
+    }
+}
