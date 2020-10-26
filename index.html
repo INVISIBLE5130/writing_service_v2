@@ -27,6 +27,15 @@
 </head>
 <body>
 <div class="main">
+    <div class="main-cookies">
+        <p class="main-cookies-text main-footer-copyright">
+            By continuing to use our website, you agree to our 
+            <a href="#" class="main-cookies-text-span">
+                Privacy and Cookie Policy.
+            </a>
+        </p>
+        <img class="main-cookies-img" src="img/close.svg" alt="Close">
+    </div>
     <div class="main-header">
         <div class="main-header-header_block">
             <img class="main-header-header_block-logo" src="img/logo.png" alt="Logo">
@@ -302,5 +311,16 @@
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    if (localStorage.getItem('cookies-info')) {
+        document.querySelector('.main-cookies').style.display = 'none'
+    }
+
+    document.querySelector('.main-cookies-img').onclick = function close() {
+        document.querySelector('.main-cookies').style.display = 'none'
+        localStorage.setItem('cookies-info', 'true')
+        console.log('close')
+    }
+</script>
 </body>
 </html>
