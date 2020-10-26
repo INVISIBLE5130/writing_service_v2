@@ -774,4 +774,12 @@ body {
     .main-payments-dmca {
         width: 80%;
     }
+
+    .main-cookies-text {
+        width: 70%;
+    }
+
+    .main-cookies-img {
+        width: 4%;
+    }
 }
